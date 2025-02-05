@@ -12,7 +12,7 @@ Este projeto foi desenvolvido durante a **Imersão Front-End da Alura**, onde o 
 
 ## 🎨 Funcionalidades
 
-✅ Recriação fiel do layout do Spotify  
+✅ Recriação da interface do Spotify com um toque de minimalismo
 ✅ Preview de músicas diretamente na interface  
 ✅ Exibição de thumbnails dinâmicas dos álbuns e playlists  
 ✅ Interface responsiva e interativa
