@@ -16,7 +16,7 @@ const Player = () => {
   useEffect(() => {
     if (currentTrack && audioRef.current) {
       audioRef.current.volume = volume / 100;
-      audioRef.current.src = currentTrack.previewUrl;
+      audioRef.current.src = currentTrack.audioPreview;
       audioRef.current.load();
       audioRef.current.play();
       setIsPlaying(true);
@@ -62,10 +62,10 @@ const Player = () => {
       {currentTrack && (
         <>
           <div className='flex flex-row gap-2 items-center justify-start px-2 h-0 w-0 invisible md:visible md:h-full md:w-full'>
-            <img src={currentTrack.thumbnail} alt={currentTrack.title} className='h-[56px] rounded-lg' />
+            <img src={currentTrack.image} alt={currentTrack.title} className='h-[56px] rounded-lg' />
             <div>
               <h3 className='font-medium leading-none hover:cursor-pointer hover:underline'>{currentTrack.title}</h3>
-              <p className='text-xs text-neutral-400 hover:cursor-pointer hover:underline'>{currentTrack.artist}</p>
+              <p className='text-xs text-neutral-400 hover:cursor-pointer hover:underline'>{currentTrack.artists}</p>
             </div>
             <FaHeart className='ml-2 text-lg text-[#1DB954] hover:cursor-pointer' />
           </div>

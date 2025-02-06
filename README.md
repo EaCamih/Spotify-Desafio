@@ -16,8 +16,12 @@ Este projeto foi desenvolvido durante a **Imersão Front-End da Alura**, onde o 
 ✅ Preview de músicas diretamente na interface  
 ✅ Exibição de thumbnails dinâmicas dos álbuns e playlists  
 ✅ Interface responsiva e interativa
+✅ Busca de músicas dinâmica diretamente da API do Spotify
+✅ Data Scrapper direto da API do Spotify
 
-## 📸 Capturas de Tela
+## 📸 Exemplos da Aplicação
+<img src='./public/Exemple1.0.0.png'/>
+<video src='./public/Exemple1.1.0.mp4'/>
 
 ## 📦 Como rodar o projeto localmente
 
@@ -37,7 +41,12 @@ Este projeto foi desenvolvido durante a **Imersão Front-End da Alura**, onde o 
    ```sh
    yarn install
    ```
-4. Inicie o servidor de desenvolvimento:  
+4. Coloque as credenciais de API:  
+   ```json
+   SPOTIFY_CLIENT_ID: "CLIENT ID",
+   SPOTIFY_CLIENT_SECRET: "CLIENT SECRET"
+   ```
+5. Inicie o servidor de desenvolvimento:  
    ```sh
    npm run dev
    ```
@@ -45,11 +54,10 @@ Este projeto foi desenvolvido durante a **Imersão Front-End da Alura**, onde o 
    ```sh
    yarn dev
    ```
-5. Acesse `http://localhost:3000` no navegador
+6. Acesse `http://localhost:3000` no navegador
 
 ## 🛠 Melhorias Futuras
 
-🔹 Scrapper de informações da API do Spotify para automatização de exibições  
 🔹 Novas telas com novas informações acessíveis pela barra de navegação
 
 ## 📜 Licença

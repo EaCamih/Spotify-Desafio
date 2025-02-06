@@ -2,9 +2,9 @@ import React, { createContext, useState, useContext } from 'react';
 
 interface Track {
   title: string;
-  artist: string;
-  thumbnail: string;
-  previewUrl: string;
+  artists: string;
+  image: string;
+  audioPreview: string;
 }
 
 interface PlayerContextProps {
