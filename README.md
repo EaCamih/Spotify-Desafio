@@ -21,7 +21,10 @@ Este projeto foi desenvolvido durante a **Imersão Front-End da Alura**, onde o 
 
 ## 📸 Exemplos da Aplicação
 <img src='./public/Exemple1.0.0.png'/>
-<video src='./public/Exemple1.1.0.mp4'/>
+
+[<video/>](https://github.com/EaCamih/Spotify-Desafio/blob/main/public/Exemple1.1.0.mp4)
+
+https://github.com/user-attachments/assets/34b29846-0b94-4ac7-9df4-718fc6e3aaaf
 
 ## 📦 Como rodar o projeto localmente
 
