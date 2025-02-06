@@ -49,7 +49,7 @@ Este projeto foi desenvolvido durante a **Imersão Front-End da Alura**, onde o 
 
 ## 🛠 Melhorias Futuras
 
-🔹 Scrapper de informações da API do Spotify para automatização de exibições
+🔹 Scrapper de informações da API do Spotify para automatização de exibições  
 🔹 Novas telas com novas informações acessíveis pela barra de navegação
 
 ## 📜 Licença
