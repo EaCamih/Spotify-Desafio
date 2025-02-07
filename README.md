@@ -15,9 +15,9 @@ Este projeto foi desenvolvido durante a **Imersão Front-End da Alura**, onde o 
 ✅ Recriação da interface do Spotify com um toque de minimalismo  
 ✅ Preview de músicas diretamente na interface  
 ✅ Exibição de thumbnails dinâmicas dos álbuns e playlists  
-✅ Interface responsiva e interativa
-✅ Busca de músicas dinâmica diretamente da API do Spotify
-✅ Data Scrapper direto da API do Spotify
+✅ Interface responsiva e interativa  
+✅ Busca de músicas dinâmica diretamente da API do Spotify  
+✅ Data Scrapper direto da API do Spotify  
 
 ## 📸 Exemplos da Aplicação
 <img src='./public/Exemple1.0.0.png'/>
